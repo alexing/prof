@@ -1,0 +1,7 @@
+@import url("video-js.default.min.css");
+
+.vjs-default-skin .vjs-volume-level {background:#0088ce;}
+.vjs-default-skin .vjs-play-progress {background:#0088ce;}
+.vjs-default-skin .vjs-big-play-button {background:rgba(0, 136, 206, 0.8);border:2px solid #0088ce;border-radius:50%;width:2.6em;top:50%;left:50%;margin:-1.3em 0 0 -1.3em;}
+.vjs-default-skin:hover .vjs-big-play-button, .vjs-default-skin .vjs-big-play-button:focus {border:2px solid #fff;background:rgba(0, 136, 206, 0.9);}
+.vjs-default-skin .vjs-big-play-button::before {color:#fff;left:3px;text-shadow:none;}

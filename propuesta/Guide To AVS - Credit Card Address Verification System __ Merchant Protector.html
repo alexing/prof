@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<!-- saved from url=(0060)https://www.merchantprotector.net/articles/understanding_avs -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Guide To AVS - Credit Card Address Verification System :: Merchant Protector</title>
+
+<script type="text/javascript" src="./Guide To AVS - Credit Card Address Verification System __ Merchant Protector_files/3099c9f81f"></script><script src="./Guide To AVS - Credit Card Address Verification System __ Merchant Protector_files/nr-686.min.js"></script><script async="" id="cio-tracker" data-site-id="409a42c146b3209b16c3" src="./Guide To AVS - Credit Card Address Verification System __ Merchant Protector_files/track.js"></script><script type="text/javascript" async="" src="./Guide To AVS - Credit Card Address Verification System __ Merchant Protector_files/532fa0ff88f3c5e579000005.js"></script><script async="" src="./Guide To AVS - Credit Card Address Verification System __ Merchant Protector_files/analytics.js"></script><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"3099c9f81f","applicationID":"2851777","transactionName":"cwpdEUJbWA5cQB8SRVIJWgYfQVoGXEBDFlFeAVoLV2tVFEo=","queueTime":4,"applicationTime":113,"agent":"js-agent.newrelic.com/nr-686.min.js"}</script>
+<script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o?o:n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({QJf3ax:[function(e,n){function t(e){function n(n,t,a){e&&e(n,t,a),a||(a={});for(var u=c(n),f=u.length,s=i(a,o,r),p=0;f>p;p++)u[p].apply(s,t);return s}function a(e,n){f[e]=c(e).concat(n)}function c(e){return f[e]||[]}function u(){return t(n)}var f={};return{on:a,emit:n,create:u,listeners:c,_events:f}}function r(){return{}}var o="nr@context",i=e("gos");n.exports=t()},{gos:"7eSDFh"}],ee:[function(e,n){n.exports=e("QJf3ax")},{}],3:[function(e,n){function t(e){return function(){r(e,[(new Date).getTime()].concat(i(arguments)))}}var r=e("handle"),o=e(1),i=e(2);"undefined"==typeof window.newrelic&&(newrelic=window.NREUM);var a=["setPageViewName","addPageAction","setCustomAttribute","finished","addToTrace","inlineHit","noticeError"];o(a,function(e,n){window.NREUM[n]=t("api-"+n)}),n.exports=window.NREUM},{1:12,2:13,handle:"D5DuLP"}],gos:[function(e,n){n.exports=e("7eSDFh")},{}],"7eSDFh":[function(e,n){function t(e,n,t){if(r.call(e,n))return e[n];var o=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:o,writable:!0,enumerable:!1}),o}catch(i){}return e[n]=o,o}var r=Object.prototype.hasOwnProperty;n.exports=t},{}],D5DuLP:[function(e,n){function t(e,n,t){return r.listeners(e).length?r.emit(e,n,t):void(r.q&&(r.q[e]||(r.q[e]=[]),r.q[e].push(n)))}var r=e("ee").create();n.exports=t,t.ee=r,r.q={}},{ee:"QJf3ax"}],handle:[function(e,n){n.exports=e("D5DuLP")},{}],XL7HBI:[function(e,n){function t(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:i(e,o,function(){return r++})}var r=1,o="nr@id",i=e("gos");n.exports=t},{gos:"7eSDFh"}],id:[function(e,n){n.exports=e("XL7HBI")},{}],G9z0Bl:[function(e,n){function t(){var e=d.info=NREUM.info,n=f.getElementsByTagName("script")[0];if(e&&e.licenseKey&&e.applicationID&&n){c(p,function(n,t){n in e||(e[n]=t)});var t="https"===s.split(":")[0]||e.sslForHttp;d.proto=t?"https://":"http://",a("mark",["onload",i()]);var r=f.createElement("script");r.src=d.proto+e.agent,n.parentNode.insertBefore(r,n)}}function r(){"complete"===f.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=e("handle"),c=e(1),u=window,f=u.document;e(2);var s=(""+location).split("?")[0],p={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-686.min.js"},d=n.exports={offset:i(),origin:s,features:{}};f.addEventListener?(f.addEventListener("DOMContentLoaded",o,!1),u.addEventListener("load",t,!1)):(f.attachEvent("onreadystatechange",r),u.attachEvent("onload",t)),a("mark",["firstbyte",i()])},{1:12,2:3,handle:"D5DuLP"}],loader:[function(e,n){n.exports=e("G9z0Bl")},{}],12:[function(e,n){function t(e,n){var t=[],o="",i=0;for(o in e)r.call(e,o)&&(t[i]=n(o,e[o]),i+=1);return t}var r=Object.prototype.hasOwnProperty;n.exports=t},{}],13:[function(e,n){function t(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(0>o?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=t},{}]},{},["G9z0Bl"]);</script>
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<meta content="AVS codes are an important frontline defense against fraudulent orders. What do the different AVS and CVV result codes mean?" name="description">
+<link href="./Guide To AVS - Credit Card Address Verification System __ Merchant Protector_files/css" rel="stylesheet" type="text/css">
+<link href="https://www.merchantprotector.net/favicon.ico" rel="shortcut icon" type="image/x-icon">
+<link href="https://www.merchantprotector.net/favicon.ico" rel="icon" type="image/x-icon">
+<link href="./Guide To AVS - Credit Card Address Verification System __ Merchant Protector_files/application-be84756ded734c04be9a50e6716a6906.css" media="screen" rel="stylesheet" type="text/css">
+<script type="text/javascript">var switchTo5x=true;</script>
+<script src="./Guide To AVS - Credit Card Address Verification System __ Merchant Protector_files/buttons.js" type="text/javascript"></script>
+<script src="./Guide To AVS - Credit Card Address Verification System __ Merchant Protector_files/sharethis_loader-fd75c01c1f7bceb518babb8b660a59d2.js" type="text/javascript"></script>
+<link rel="stylesheet" type="text/css" href="./Guide To AVS - Credit Card Address Verification System __ Merchant Protector_files/hoverbuttons.6eab8de2ee93b309873157b6d3f977fe.css"><script type="text/javascript" src="./Guide To AVS - Credit Card Address Verification System __ Merchant Protector_files/hoverbuttons.f957c1409bef85dad9f9b3c8412895bd.js"></script><script type="text/javascript" src="./Guide To AVS - Credit Card Address Verification System __ Merchant Protector_files/getAllAppDefault.esi"></script><script type="text/javascript" async="" src="./Guide To AVS - Credit Card Address Verification System __ Merchant Protector_files/tagjs"></script><img src="./Guide To AVS - Credit Card Address Verification System __ Merchant Protector_files/saved_resource" width="1" height="1" border="0"><img src="./Guide To AVS - Credit Card Address Verification System __ Merchant Protector_files/saved_resource(1)" width="1" height="1" border="0"><img src="./Guide To AVS - Credit Card Address Verification System __ Merchant Protector_files/saved_resource(2)" width="1" height="1" border="0"><img src="./Guide To AVS - Credit Card Address Verification System __ Merchant Protector_files/saved_resource(3)" width="1" height="1" border="0"><img src="./Guide To AVS - Credit Card Address Verification System __ Merchant Protector_files/saved_resource(4)" width="1" height="1" border="0"><img src="./Guide To AVS - Credit Card Address Verification System __ Merchant Protector_files/saved_resource(5)" width="1" height="1" border="0"><img src="./Guide To AVS - Credit Card Address Verification System __ Merchant Protector_files/seg" width="1" height="1" border="0"><link rel="stylesheet" type="text/css" href="./Guide To AVS - Credit Card Address Verification System __ Merchant Protector_files/buttons-secure.css"><script async="true" type="text/javascript" src="./Guide To AVS - Credit Card Address Verification System __ Merchant Protector_files/roundtrip.js"></script><script async="true" type="text/javascript" src="./Guide To AVS - Credit Card Address Verification System __ Merchant Protector_files/LBNXVKEO5VFNNCQ4TZZCV7"></script><div style="width: 1px; height: 1px; display: inline; position: absolute;"><img height="1" width="1" style="border-style:none;" alt="" src="./Guide To AVS - Credit Card Address Verification System __ Merchant Protector_files/out">
+<img height="1" width="1" style="border-style:none;" alt="" src="./Guide To AVS - Credit Card Address Verification System __ Merchant Protector_files/out(1)">
+<img height="1" width="1" style="border-style:none;" alt="" src="./Guide To AVS - Credit Card Address Verification System __ Merchant Protector_files/out(2)">
+<img height="1" width="1" style="border-style:none;" alt="" src="./Guide To AVS - Credit Card Address Verification System __ Merchant Protector_files/out(3)">
+<img height="1" width="1" style="border-style:none;" alt="" src="./Guide To AVS - Credit Card Address Verification System __ Merchant Protector_files/out(4)">
+<img height="1" width="1" style="border-style:none;" alt="" src="./Guide To AVS - Credit Card Address Verification System __ Merchant Protector_files/out(5)">
+<img height="1" width="1" style="border-style:none;" alt="" src="./Guide To AVS - Credit Card Address Verification System __ Merchant Protector_files/out(6)">
+<img height="1" width="1" style="border-style:none;" alt="" src="./Guide To AVS - Credit Card Address Verification System __ Merchant Protector_files/out(7)">
+<img height="1" width="1" alt="" style="display:none" src="./Guide To AVS - Credit Card Address Verification System __ Merchant Protector_files/tr"><img height="1" width="1" style="border-style:none;" alt="" src="./Guide To AVS - Credit Card Address Verification System __ Merchant Protector_files/saved_resource(6)">
+<img src="./Guide To AVS - Credit Card Address Verification System __ Merchant Protector_files/seg(1)" width="1" height="1">
+</div></head>
+<body class="public">
+<nav class="navbar navbar-default navbar-inverse" id="top">
+<div class="container">
+<div class="navbar-header">
+<button aria-controls="navbar" class="navbar-toggle collapsed" data-target="#main-navigation" data-toggle="collapse" data-type="button">
+<span class="sr-only">Toggle navigation</span>
+<span class="fa fa-bar"></span>
+<span class="fa fa-bar"></span>
+<span class="fa fa-bar"></span>
+</button>
+<a class="navbar-brand" href="https://www.merchantprotector.net/">
+<i class="fa fa-lock"></i>
+Merchant Protector
+</a>
+</div>
+<div class="collapse navbar-collapse" id="main-navigation">
+<ul class="nav navbar-nav">
+<li>
+<a href="https://www.merchantprotector.net/">Home</a>
+</li>
+<li>
+<a href="https://www.merchantprotector.net/public/how_it_works">How It Works</a>
+</li>
+<li>
+<a href="https://www.merchantprotector.net/public/pricing">Get Started</a>
+</li>
+</ul>
+<ul class="nav navbar-nav pull-right">
+<li>
+<a href="https://www.merchantprotector.net/users/sign_in">Log In</a>
+</li>
+<li>
+<a href="https://www.merchantprotector.net/public/pricing">Sign Up</a>
+</li>
+</ul>
+</div>
+</div>
+</nav>
+
+<div class="container">
+</div>
+<div class="content">
+<div class="container light-blue-bg">
+<h1>Guide to AVS: Credit Card Address Verification System Explained</h1>
+<p>
+AVS, or the Address Verification System, is a common way for merchants to ensure that the billing address entered at checkout matches the address on file at the customer's credit card company.  Understanding it is an important first step in securing your online store against fraud
+</p>
+<p>
+Rather than simply
+<strong>telling</strong>
+merchants the expected billing address, the credit card processor will instead attempt to match the billing address provided with the billing address they have on file for the customer.  This protects you (and them!) from liability, but it is also a pretty big pain in the behind.
+</p>
+<p>
+There are various kinds of matches that might be returned from the payment processor:
+</p>
+<table class="table">
+<tbody><tr>
+<th>Code(s)</th>
+<th>Message</th>
+<th>Match Quality</th>
+</tr>
+<tr>
+<td>D, F, X</td>
+<td>Perfect Match: address + extended postal code</td>
+<td>
+<i class="fa fa-smile fa fa-2x"></i>
+</td>
+</tr>
+<tr>
+<td>Y, M</td>
+<td>Perfect Match: address match + postal code</td>
+<td>
+<i class="fa fa-smile fa fa-2x"></i>
+</td>
+</tr>
+<tr>
+<td>Z, P</td>
+<td>Partial Match: Postal code but not street address</td>
+<td>
+<i class="fa fa-meh fa fa-2x"></i>
+</td>
+</tr>
+<tr>
+<td>A, B</td>
+<td>Partial Match: Street address but not postal code</td>
+<td>
+<i class="fa fa-meh fa fa-2x"></i>
+</td>
+</tr>
+<tr>
+<td>W</td>
+<td>Partial Match: Extended postal code but not street address</td>
+<td>
+<i class="fa fa-meh fa fa-2x"></i>
+</td>
+</tr>
+<tr>
+<td>G, I, E</td>
+<td>AVS Unavailable (bank does not participate in AVS)</td>
+<td>
+<i class="fa fa-frown fa fa-2x"></i>
+</td>
+</tr>
+<tr>
+<td>R</td>
+<td>Card issuing bank's AVS system temporarily unavailable</td>
+<td>
+<i class="fa fa-frown fa fa-2x"></i>
+</td>
+</tr>
+<tr>
+<td>S, U</td>
+<td>Card issuing bank does not support AVS (see BIN for bank information)</td>
+<td>
+<i class="fa fa-frown fa fa-2x"></i>
+</td>
+</tr>
+<tr>
+<td>C, N</td>
+<td>No Match</td>
+<td>
+<i class="fa fa-frown fa fa-2x"></i>
+</td>
+</tr>
+</tbody></table>
+<p>
+AVS is an
+<strong>excellent</strong>
+first-pass filter against fraudulent orders.  Many merchant accounts will let you configure your settings so that certain response codes are rejected automatically - and you can choose based on your own appetite for risk.
+</p>
+<p>
+You can't rely on it 100%.  It's a mostly US system, so if you require some form of AVS match you'll automatically exclude a lot of non-US customers.  Legitimate customers often get flagged by the AVS system too:
+</p>
+<ul>
+<li>Customers may mistype or abbreviate some part of their billing addresses, triggering a mismatch in the system when a human might understand the difference</li>
+<li>Customers move without updating their addresses</li>
+<li>Card companies mis-update addresses through data entry errors or delays</li>
+</ul>
+<p>
+But - as with most things fraud-related - don't let perfect be the enemy of good.  Get to know AVS and start to decide on your own personal tolerance for risk.
+</p>
+<p>
+For full-range fraud prevention for your e-commerce store, you can sign up for Merchant Protector below.  Online stores bear all the financial burden of order fraud, so we think they should have the best possible fraud prevention tools.
+</p>
+</div>
+<div class="animated fadeInDown delay3" id="newsletter">
+<div class="container">
+<div class="row" style="margin-top: 2em"><div id="beta-signup">
+<div class="row light-blue-bg" style="text-align: center;">
+<div class="col-md-6">
+<h3>Start Selling Safer Now</h3>
+<p>All our plans include a 30 day risk-free trial</p>
+</div>
+<div class="col-md-6" style="padding-top: 1.3em;">
+<a href="https://www.merchantprotector.net/leads/new" class="btn btn-large btn-success">Get In Touch</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+<footer class="footer" id="copyright">
+<div class="container">
+<div class="row">
+<div class="col-md-4">
+<p>© Copyright Awesome Software - 2013 - 2015 - All Rights Reserved.</p>
+<div class="social">
+<p>
+<a href="https://twitter.com/intent/user?screen_name=MrchntPrtctr">
+<i class="fa fa-twitter"></i>
+</a>
+</p>
+</div>
+</div>
+<div class="col-md-4">
+<p>
+<strong>Questions? Email</strong>
+<a href="mailto:will@merchantprotector.net">will@merchantprotector.net</a>
+</p>
+<p>
+<a href="https://www.merchantprotector.net/developer/api">API Documentation</a>
+<br>
+<a href="https://www.merchantprotector.net/public/about">About</a>
+<br>
+<a href="https://www.merchantprotector.net/public/privacy-policy">Privacy Policy</a>
+</p>
+</div>
+<div class="col-md-4">
+<p>
+<strong>Fraud Prevention Tips</strong>
+<br>
+<a href="./Guide To AVS - Credit Card Address Verification System __ Merchant Protector_files/Guide To AVS - Credit Card Address Verification System __ Merchant Protector.html">AVS: Address Verification System</a>
+<br>
+<a href="https://www.merchantprotector.net/articles/billing_vs_shipping_address">Comparing Billing and Shipping Addresses</a>
+</p>
+</div>
+</div>
+</div>
+</footer>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-50342280-1', 'merchantprotector.net');
+  ga('send', 'pageview', {'dimension1': 'Anonymous'});
+</script>
+
+<script type="text/javascript">
+  (function() {
+    window._pa = window._pa || {};
+    var pa = document.createElement('script'); pa.type = 'text/javascript'; pa.async = true;
+    pa.src = ('https:' == document.location.protocol ? 'https:' : 'http:') + "//tag.perfectaudience.com/serve/532fa0ff88f3c5e579000005.js";
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(pa, s);
+  })();
+</script>
+
+<script type="text/javascript">
+adroll_adv_id = "KDWU3U2VKJFMRNN5G5QPJJ";
+adroll_pix_id = "LBNXVKEO5VFNNCQ4TZZCV7";
+(function () {
+var oldonload = window.onload;
+window.onload = function(){
+   __adroll_loaded=true;
+   var scr = document.createElement("script");
+   var host = (("https:" == document.location.protocol) ? "https://s.adroll.com" : "http://a.adroll.com");
+   scr.setAttribute('async', 'true');
+   scr.type = "text/javascript";
+   scr.src = host + "/j/roundtrip.js";
+   ((document.getElementsByTagName('head') || [null])[0] ||
+    document.getElementsByTagName('script')[0].parentNode).appendChild(scr);
+   if(oldonload){oldonload()}};
+}());
+</script>
+
+<script type="text/javascript">
+  var _cio = _cio || [];
+  (function() {
+    var a,b,c;a=function(f){return function(){_cio.push([f].
+    concat(Array.prototype.slice.call(arguments,0)))}};b=["load","identify",
+    "sidentify","track","page"];for(c=0;c<b.length;c++){_cio[b[c]]=a(b[c])};
+    var t = document.createElement('script'),
+        s = document.getElementsByTagName('script')[0];
+    t.async = true;
+    t.id    = 'cio-tracker';
+    t.setAttribute('data-site-id', '409a42c146b3209b16c3');
+    t.src = 'https://assets.customer.io/assets/track.js';
+    s.parentNode.insertBefore(t, s);
+  })();
+</script>
+
+
+<script src="./Guide To AVS - Credit Card Address Verification System __ Merchant Protector_files/application-44a4464d840061371c597f6e3ab11ee8.js" type="text/javascript"></script>
+<script type="text/javascript">stLight.options({publisher: "ur-9498bae4-7d32-c96f-3ef7-94c0f5aec9c7", doNotHash: false, doNotCopy: false, hashAddressBar: false});</script>
+<script>
+var options={ "publisher": "ur-9498bae4-7d32-c96f-3ef7-94c0f5aec9c7", "position": "left", "ad": { "visible": false, "openDelay": 5, "closeDelay": 0}, "chicklets": { "items": ["facebook", "twitter", "linkedin", "buffer", "email"]}};
+var st_hover_widget = new sharethis.widgets.hoverbuttons(options);
+</script>
+
+
+<div id="stcpDiv" style="position: absolute; top: -1999px; left: -1988px;">ShareThis Copy and Paste</div><iframe id="stSegmentFrame" name="stSegmentFrame" src="./Guide To AVS - Credit Card Address Verification System __ Merchant Protector_files/getSegment.html" frameborder="0" scrolling="no" width="0px" height="0px" style="display:none;"></iframe><div id="stwrapper" class="stwrapper stwrapper5x" style="display: none;"><iframe allowtransparency="true" id="stLframe" class="stLframe" name="stLframe" frameborder="0" scrolling="no" src="./Guide To AVS - Credit Card Address Verification System __ Merchant Protector_files/index.html"></iframe></div><div id="stOverlay" onclick="javascript:stWidget.closeWidget();"></div></body></html>

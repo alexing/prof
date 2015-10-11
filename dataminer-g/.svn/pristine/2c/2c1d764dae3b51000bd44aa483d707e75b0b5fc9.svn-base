@@ -1,0 +1,20 @@
+Busqueda con GoogleMaps Api
+
+
+Api de Google para localizar direcciones
+http://maps.googleapis.com/maps/api/geocode/json?address=2073+tte+gral+donato+Alvarez,Ciudad+autonoma+Buenos+aires&sensor=false
+
+
+Subeclipse
+http://subclipse.tigris.org/update_1.10.x
+
+
+Repositorio: https://svn.riouxsvn.com/dataminer
+User:Aran2014
+Passw:Scarface1988
+
+
+Conexion a base de datos SQL con JDBC
+
+Me costo muchisimo lograr la conexion. El problema era que JustHost me daba una direccion ip erronea. Sacandola a mano agregue la ip mia a la lista de ips validas y listo
+

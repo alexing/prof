@@ -1,0 +1,453 @@
+main {
+	overflow-x: hidden;
+}
+
+header {
+	z-index: 100;
+}
+
+
+#page-nav {
+	-webkit-transform: translateZ(200px);
+	-moz-transform: translateZ(200px);
+	-o-transform: translateZ(200px);
+	transform: translateZ(200px);	/* puts it in front of the "skewed" (3D-transformed) elements */
+
+	padding: 10px 0;
+	text-align: center;
+	background: #FFF;
+	box-shadow: 0 0 15px rgba(0, 0, 0, 0.25);
+	text-transform: uppercase;
+	font: 300 14px/40px Lato, sans-serif;
+	white-space: nowrap;
+}
+
+#page-nav a {
+	text-decoration: none;
+	color: #AAA;
+	padding-bottom: 3px;
+}
+
+#page-nav a:hover {
+	text-decoration: none;
+	color: #000;
+}
+
+
+#page-nav a.selected {
+	color: #444;
+	font-weight: normal;
+	border-bottom: 2px solid #E3BD1C;
+}
+
+#page-nav #signup-link {
+	color: #4FB033;
+	font-weight: bold;
+	transition: all .3s;
+	padding: 5px 15px;
+	border-radius: 5px;
+}
+
+#page-nav #signup-link:hover {
+	color: #FFF;
+	background: #4FB033;
+}
+
+.nowrap {
+	white-space: nowrap;
+}
+
+hr {
+	margin: 75px auto;
+}
+
+hr.spacer {
+	border: 1px solid transparent;
+	margin: 40px auto;
+}
+
+hr.big-spacer {
+	border: 1px solid transparent;
+	margin: 70px auto;
+}
+
+
+h1 {
+	font: bold 65px/1em Lato, sans-serif;
+	margin: 40px auto;
+}
+
+h2 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 24px;
+	font-weight: 300;
+}
+
+h2 a {
+	color: inherit;
+	text-decoration: none;
+}
+
+h2 a:after {
+	content: '\203A';
+	position: relative;
+	opacity: 0;
+	left: 0px;
+	transition: left .15s, opacity .15s;
+}
+
+h2 a:hover {
+	color: #2AB4F5;
+	text-decoration: none;
+}
+
+h2 a:hover:after {
+	opacity: 1;
+	left: 8px;
+}
+
+h3 {
+	font: 32px Lato, sans-serif;
+	color: #000;
+}
+
+h4 {
+	font: bold 18px/1.5em Raleway, sans-serif;
+	color: #000;
+	margin-bottom: 5px;
+}
+
+h4:first-child {
+	margin-top: 10px;
+}
+
+h5 {
+	margin-bottom: 0;
+}
+
+p {
+	color: #666;
+}
+
+input[readonly] {
+	background: #FCFCFC;
+}
+
+input[readonly]:focus {
+	border-color: #AAA;
+}
+
+.header-paragraph {
+	max-width: 600px;
+	margin: 0 auto 100px;
+	color: #000;
+	font-size: 16px;
+	text-align: center;
+}
+
+section {
+	border-top: 1px solid #DDD;
+	border-bottom: 1px solid #DDD;
+	margin: 100px auto;
+}
+
+.content-right-container,
+.content-left-container {
+	position: relative;
+	z-index: 4;
+	min-height: 700px;
+	margin-top: 200px;
+}
+
+.content-right,
+.content-left {
+	max-width: 550px;
+	padding: 0 5%;
+}
+
+.content-left {
+	margin-left: auto;
+	margin-right: 50%;
+}
+
+.content-right {
+	margin-left: 50%;
+	margin-right: auto;
+}
+
+.image-right,
+.image-left {
+	width: 50%;
+	height: 650px;
+	position: absolute;
+	top: -50px;
+	background-size: auto 100%;
+	box-shadow: 0 15px 70px rgba(0, 0, 0, 0.4);
+}
+
+.image-right {
+	-webkit-transform: perspective(500px) rotateY(-10deg);
+	-moz-transform: perspective(500px) rotateY(-10deg);
+	-o-transform: perspective(500px) rotateY(-10deg);
+	transform: perspective(500px) rotateY(-10deg);
+
+	right: 0;
+	border-top-left-radius: 15px;
+	border-bottom-left-radius: 15px;
+}
+
+.image-left {
+	-webkit-transform: perspective(500px) rotateY(10deg);
+	-moz-transform: perspective(500px) rotateY(10deg);
+	-o-transform: perspective(500px) rotateY(10deg);
+	transform: perspective(500px) rotateY(10deg);
+
+	left: 0;
+	border-top-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+	background-position: right;
+}
+
+
+.img-verifying-address {
+	background-image: url('/resources/images/verifying-address.png');
+}
+
+.img-list-example {
+	background-image: url('/resources/images/list-example.png');
+	height: 550px;
+}
+
+.img-zip-map-pins {
+	background-image: url('/resources/images/map-zip-pins.png');
+	border: 1px solid #FFF;
+}
+
+.img-extracted {
+	background-image: url('/resources/images/extracted.png');
+}
+
+pre {
+	background: #FAFAFA;
+	border: 1px solid #DDD;
+}
+
+.tabbed-code pre {
+	margin-top: 0;
+}
+
+.tabbed-code code {
+	font-size: 14px;
+}
+
+.tabbed-code .tabs {
+	border: 1px solid #DDD;
+	border-bottom: 0;
+	overflow-x: hidden;
+}
+
+.tabbed-code .tab,
+.tabbed-code .not-a-tab {
+	display: inline-block;
+	padding: 5px 10px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	color: #999;
+}
+
+.tabbed-code .tab:hover {
+	text-decoration: none;
+	color: #000;
+}
+
+.tabbed-code .tab.selected {
+	background: #DDD;
+	color: #000;
+}
+
+.tabbed-code .examples .example {
+	display: none;
+	max-height: 200px;
+}
+
+.tabbed-code .examples .example:first-child {
+	display: block;
+}
+
+.sample-code-warning {
+	float: right;
+	line-height: 1.5em;
+	padding-right: 5px;
+}
+
+.skew-container {
+	position: relative;
+	padding: 100px 0;
+	margin: 150px 0;
+}
+
+.skew-container .skew-content {
+	-webkit-transform: translateZ(100px);
+	-moz-transform: translateZ(100px);
+	-o-transform: translateZ(100px);
+	transform: translateZ(100px);	/* Ha! see: http://mwholt.blogspot.com/2014/08/chrome-rendering-quirk-when-using-3d.html */
+
+	padding-top: 50px;
+	position: relative;
+	z-index: 2;
+}
+
+.skew-container .skew {
+	-webkit-transform: perspective(800px) rotateY(-5deg);
+	-moz-transform: perspective(800px) rotateY(-5deg);
+	-o-transform: perspective(800px) rotateY(-5deg);
+	transform: perspective(800px) rotateY(-5deg);
+
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: -15%;
+	width: 150%;
+	height: 100%;
+	z-index: 1;
+	outline: 1px solid transparent; /* firefox hack for smooth edges: http://stackoverflow.com/questions/9235342/3d-css-transform-jagged-edges-in-firefox */
+}
+
+.skew-container .skew.reverse {
+	-webkit-transform: perspective(800px) rotateY(5deg);
+	-moz-transform: perspective(800px) rotateY(5deg);
+	-o-transform: perspective(800px) rotateY(5deg);
+	transform: perspective(800px) rotateY(5deg);
+}
+
+.stuck {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 50;
+}
+
+.data-points li {
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+form.signup-horiz {
+	padding: 50px 0;
+	border-top: 1px solid #BBB;
+	border-bottom: 1px solid #BBB;
+	background: #F0F0F0;
+	margin-bottom: 100px;
+}
+
+form.signup-horiz input,
+form.signup-horiz button {
+	width: 100%;
+	display: block;
+	margin: 10px auto;
+}
+
+
+
+
+
+
+
+#auto-street,
+#auto-city,
+#auto-state {
+	float: left;
+}
+
+#auto-street {
+	width: 100%;
+}
+
+#auto-city {
+	width: 60%;
+	margin-right: 1%;
+}
+
+#auto-state {
+	width: 39%;
+}
+
+
+.smarty-suggestion {
+	font-size: 12px;
+}
+
+
+
+@media (max-width: 767px) {
+	/* mobile */
+
+	h2,
+	h3,
+	p {
+		max-width: none;
+	}
+
+	.data-points li {
+		font-size: 14px;
+	}
+
+	hr {
+		margin: 50px 0;
+	}
+
+	#page-nav {
+		padding: 0;
+	}
+}
+
+@media (max-width: 650px) {
+	h1 {
+		margin-top: 0;
+		font-size: 55px;
+		padding: 0 15px;
+	}
+
+	.content-right-container,
+	.content-left-container {
+		margin-top: 75px;
+	}
+
+	.content-right {
+		margin-left: auto;
+	}
+
+	.image-left,
+	.image-right {
+		-webkit-transform: none;
+		-moz-transform: none;
+		-o-transform: none;
+		transform: none;
+		
+		position: static;
+		max-width: 90%;
+		max-height: 300px;
+		margin-left: auto;
+		margin-right: auto;
+		width: 100%;
+		border-radius: 10px;
+		box-shadow: 0 2px 5px rgba(0, 0, 0, .4);
+		border: 1px solid #AAA;
+	}
+
+	.content-left {
+		margin-right: auto;
+	}
+}
+
+@media (max-width: 520px) {
+	.sample-code-warning {
+		display: none;
+	}
+
+	#page-nav .mobile-grid-50 {
+		line-height: 2em;
+	}
+}
