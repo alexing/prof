@@ -15,5 +15,41 @@ Autores: Michael Blumenstein & Brijesh Verma
 Lugar: Griffith University, Gold Coast Campus, Australia
 ISBN:
 DOE:
-Opinión:
+Opinión: Está bueno que da datos concretos sobre cantidades de capas y neuronas necesarias, pero está muy orientado hacia OCR. No es del todo útil.
+------------------------------------------------------------------------------------------
+
+Título:A Statistical Approach for Phrase Location and Recognition within a Text Line: An Application to Street Name Recognition
+Abstract:In this paper, we describe a new approach to conjointly locate and recognize a street name within a street line. The system developed is based on a probabilistic framework that naturally integrates various knowledge sources to emit a final decision. At the handwriting signal level, hidden Markov models are extensively used to provide the needed matching scores. Several optimization techniques are employed to speed up the processing time. Experiments carried out on large data sets of street line images, automatically extracted from real French mail envelope images, show very promising results.
+Autores: Mounim A. El-Yacoubi, Michel Gilloux, and Jean-Michel Bertille
+Lugar:
+ISBN:
+DOE: 10.1109/34.982898
+Opinión: No terminé de leer. El paper se centra en encontrar el nombre principal de una calle en un string ya identificado como dirección, es decir, obtener "Sucre" de "Tte. Mar. Antonio de Sucre 832 7A".
+------------------------------------------------------------------------------------------
+
+Título: A System to Read Names and Addresses on Tax Forms
+Abstract: The reading of names and addresses is one of the most complex tasks in automated forms processing. This paper describes an integrated real-time system to read names and addresses on tax forms of the Internal Revenue Service of the United States. The Name and Address Block Reader (NABR) system accepts both machine-printed and hand-printed address block images as input. The application software has two major steps: document analysis (connected component analysis, address block extraction, label de- tection, hand-print/machine-print discrimination) and document recognition. Document recognition has two non-identical streams for machine-print and hand-print key steps are: address parsing, character recognition, word recognition and postal database lookup (ZIP+4 and City-State-ZIP les). System output is a packet containing the results of recognition together with database access status le. Real-time throughput (8,500 forms per hour) is achieved by employing a loosely-coupled multiprocessing architecture where successive input images are distributed to available address recognition processors. The functional architecture, software design, system architecture and the hardware implementation are described. Performance evaluation on machine-printed and handwritten addresses are presented.
+Autores: Sargur N. Srihari, Yong-Chul Shin, Vemulapati Ramanaprasad and Dar-Shyang Lee
+Lugar: State University of New York at Buffalo, Buffalo, NY
+ISBN:
+DOE:
+Opinión: No parecería util. Centradísimo en OCR. No se usan RNAs, se compara el output del OCR contra una base de datos ya existente de todas las direcciones de EEUU. El parsing del string es fácil porque sacan las direcciones de una form, ya regulados.
+------------------------------------------------------------------------------------------
+
+Título: Confidence Measures for an Address Reading System
+Abstract:In this paper the performance of different confidence measures used for an address recognition system are evaluated. The recognition system for cursive handwritten German address words is based on Hidden Markov Models (HMMs). It is essential, that the structure of the address (name, street, city, country) is known, so that a specific small but complete dictionary can be selected. Choosing a wrong dictionary (OOV: out-of-vocabulary) or misrecognize the word, the recognition result should be rejected by means of the confidence measure. This paper points out two aspects: the comparison of four confidence measures for single words – based on the likelihood, a garbage-model, a two-best recognition or a character decoding – and the comparison of using complete or wrong dictionaries. It is shown, that the best confidence measure – the two-best distance – has a quite different behavior using OOV.
+Autores: Anja Brakensiek, Jörg Rottland, Gerhard Rigoll
+Lugar: Germany
+ISBN:
+DOE:
+Opinión: No terminé de leer, pero parece muy centrado en OCR.
+------------------------------------------------------------------------------------------
+
+Título:Postal Address Detection from Web Documents
+Abstract: An approach to postal address detection from webpages is proposed. The webpages are first segmented into text blocks based on their visual similarity. The text content in each block undergoes the recognition process, which employs a syntactic approach. The grammars of almost all possible patterns of postal addresses are built for this purpose. The results of our preliminary experiments on 44 webpages with 56 true addresses show that our approach can detect the postal addresses with a high precision (89.3%) and a low false alarms rate (3.8%).
+Autores: Lin Can, Zhang Qian, Meng Xiaofeng, Liu Wenyin
+Lugar: Hong Kong y Beijing
+ISBN:
+DOE:
+Opinión: MUY BUENO. Hace exactamente lo que estoy buscando hacer, pero no usa RNAs.
 ------------------------------------------------------------------------------------------
