@@ -1,0 +1,19 @@
+MODELO
+
+Título:
+Abstract:
+Autores:
+Lugar:
+ISBN:
+DOE:
+Opinión:
+------------------------------------------------------------------------------------------
+
+Título:A Segmentation Algorithm used in Conjunction with Artificial Neural Networks for the Recognition of Real-World Postal Addresses
+Abstract: Artificial Neural Networks (ANNs) have been successfully applied for pattern recognition, speech recognition, control and other real world problems. This paper presents a method for segmentation of printed and difficult handwritten postal addresses. The segmentation algorithm is used to prepare raw training data for use with an Artificial Neural Network. The C programming language, the SP2 supercomputer and a SUN workstation were used for the experiments. The algorithm has been successfully tested on real world handwritten postal addresses. Some experimental results are presented in this paper.
+Autores: Michael Blumenstein & Brijesh Verma
+Lugar: Griffith University, Gold Coast Campus, Australia
+ISBN:
+DOE:
+Opinión:
+------------------------------------------------------------------------------------------
